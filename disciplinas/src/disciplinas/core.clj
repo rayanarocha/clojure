@@ -22,6 +22,14 @@
   [disciplinas semestre-atual]
   (join ", " (map upper-case (map :nome (filter #(>= (:semestre %) semestre-atual) disciplinas)))))
 
+(defn nomes-disciplinas-restantes
+  [disciplinas semestre-atual]
+  (->> disciplinas
+       (filter #(>= (:semestre %) semestre-atual))
+       (map :nome)
+       (map upper-case)
+       (join ", ")))
+
 (nomes-disciplinas-restantes (disciplinas) 2)
 
 ;; (map :nome [{:nome "Estrutura de dados" :semestre 2} {:nome "Inteligência artificial" :semestre 3}])
