@@ -35,3 +35,4 @@ Na imagem a seguir, podemos ver a linha do tempo da evolução dos `dialetos` e 
 
 ### Referências
 - https://www.abrantes.pro.br/2021/03/17/o-que-e-lisp-dialetos-e-implementacoes/
+- https://imasters.com.br/desenvolvimento/historia-lisp-abra-os-olhos-para-programacao-funcional
