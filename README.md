@@ -29,5 +29,9 @@ Por exemplo, se você escrever um programa que utiliza apenas as característica
 
 As implementações da Common Lisp e da Scheme geralmente implementam tudo o que está definido em seus respectivos padrões e, além disso, acrescentam várias outras funcionalidades. Você pode então decidir usar somente as características padronizadas do dialeto, para maximizar a portabilidade entre diferentes implementações, ou decidir por utilizar funcionalidades específicas de uma determinada implementação (facilitando o desenvolvimento ao custo de uma menor portabilidade).
 
+Na imagem a seguir, podemos ver a linha do tempo da evolução dos `dialetos` e `implementações` da linguagem Lisp.
+
+<img align="center" alt="timeline" height="800" width="850" src="https://github.com/rayanarocha/clojure/blob/main/EuLisp.png"/>
+
 ### Referências
 - https://www.abrantes.pro.br/2021/03/17/o-que-e-lisp-dialetos-e-implementacoes/
